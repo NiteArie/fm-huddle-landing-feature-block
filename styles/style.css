@@ -81,7 +81,7 @@ body {
 }
 
 .main__cards {
-    margin: 100px auto;
+    margin: 100px auto 80px;
     max-width: 1100px;
     display: flex;
     flex-direction: column;
@@ -131,8 +131,10 @@ body {
 }
 
 .main__community {
-    max-width: 500px;
-    padding: 20px;
+    position: relative;
+    top: 60px;
+    max-width: 700px;
+    padding: 30px;
     margin: auto auto;
     text-align: center;
     background-color: white;
@@ -141,14 +143,14 @@ body {
 }
 
 .main__ready {
-    margin: 20px 0;
-    font-size: 22px;
+    margin: 20px 0 30px;
+    font-size: 32px;
     font-weight: bold;
 }
 
 .main__cta {
     margin-bottom: 10px;
-    padding: 15px 50px;
+    padding: 20px 80px;
     color: white;
     font-weight: bold;
     background-color: hsl(322, 100%, 66%);
@@ -166,9 +168,9 @@ body {
 }
 
 .footer__container {
-    margin: auto auto;
+    margin: 0 auto;
     max-width: 1100px;
-    padding: 40px 0;
+    padding: 120px 0 50px;
 }
 
 .footer__logo {
