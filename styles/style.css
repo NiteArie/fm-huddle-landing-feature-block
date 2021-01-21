@@ -233,6 +233,7 @@ body {
     height: 15px;
 }
 
+
 .footer__list--flex {
     display: flex;
 }
@@ -247,6 +248,10 @@ body {
     border: 1px solid hsl(193, 100%, 96%);
     border-radius: 50%;
     cursor: pointer;
+}
+
+.footer__list-item--social:hover {
+    filter: brightness(0) saturate(100%) invert(44%) sepia(77%) saturate(1530%) hue-rotate(295deg) brightness(103%) contrast(101%);
 }
 
 .footer__about {
