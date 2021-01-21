@@ -31,6 +31,11 @@ body {
     border-radius: 30px;
     box-shadow: 0 2px 5px 1px hsla(0, 0%, 0%, 0.2);
     cursor: pointer;
+    transition: all 200ms ease-out;
+}
+
+.header__cta:hover {
+    color: hsl(208, 11%, 55%);
 }
 
 .header__hero {
@@ -63,6 +68,11 @@ body {
     border: 0;
     border-radius: 30px;
     cursor: pointer;
+    transition: all 200ms ease-out;
+}
+
+.header__start:hover {
+    background-color: hsl(322, 100%, 76%);
 }
 
 .header__right {
@@ -152,12 +162,17 @@ body {
     margin-bottom: 10px;
     padding: 20px 80px;
     color: white;
+    font-size: 18px;
     font-weight: bold;
     background-color: hsl(322, 100%, 66%);
     box-shadow: 0 3px 10px hsla(0, 0%, 0%, 0.2);
     border: 0;
     border-radius: 30px;
     cursor: pointer;
+}
+
+.main__cta:hover {
+    background-color: hsl(322, 100%, 76%);
 }
 
 /* Footer */
@@ -237,4 +252,97 @@ body {
 .footer__about {
     text-align: right;
     font-size: 12px;
+}
+
+@media all and (max-width: 1150px) {
+    .main__cards {
+        margin-left: 25px;
+        margin-right: 25px;
+    }
+    
+    .footer__container {
+        margin-left: 25px;
+        margin-right: 25px;
+    }
+}
+
+@media all and (max-width: 950px) {
+    .main__cards {
+        margin-left: 25px;
+        margin-right: 25px;
+    }
+
+    .main__card {
+        flex-direction: column-reverse;
+    }
+
+    .main__info {
+        margin-left: 0;
+        margin-top: 20px;
+        flex: 1;
+        text-align: center;
+    }
+
+    
+    
+    .footer__container {
+        margin-left: 25px;
+        margin-right: 25px;
+    }
+
+    .header__hero {
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+
+    .header__left {
+        flex: 1;
+        margin-bottom: 40px;
+        text-align: center;
+    }
+    
+    .footer__grid {
+        grid-template-columns: 1fr;
+    }
+
+    .footer__col:nth-child(n + 2) {
+        align-items: start;
+    }
+
+    .footer__list--flex {
+        margin: 20px 0;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .footer__about {
+        text-align: center;
+    }
+}
+
+@media all and (max-width: 750px) {
+
+    .header {
+        padding: 25px;
+    }
+
+    .header__right {
+        max-width: 100%;
+        width: auto;
+    }
+    .main__community {
+        margin-left: 25px;
+        margin-right: 25px;
+        padding: 10px 10px 20px;
+    }
+
+    .main__ready {
+        font-size: 24px;
+    }
+
+    .main__cta {
+        font-size: 16px;
+    }
+
 }
