@@ -86,10 +86,6 @@ body {
 
 /* Main */
 
-.main {
-
-}
-
 .main__cards {
     margin: 100px auto 80px;
     max-width: 1100px;
@@ -259,12 +255,23 @@ body {
     font-size: 12px;
 }
 
+.attribution {
+    padding: 10px;
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(322, 100%, 36%);
+}
+
+
 @media all and (max-width: 1150px) {
     .main__cards {
         margin-left: 25px;
         margin-right: 25px;
     }
-    
+
     .footer__container {
         margin-left: 25px;
         margin-right: 25px;
@@ -288,8 +295,8 @@ body {
         text-align: center;
     }
 
-    
-    
+
+
     .footer__container {
         margin-left: 25px;
         margin-right: 25px;
@@ -305,7 +312,7 @@ body {
         margin-bottom: 40px;
         text-align: center;
     }
-    
+
     .footer__grid {
         grid-template-columns: 1fr;
     }
@@ -336,6 +343,7 @@ body {
         max-width: 100%;
         width: auto;
     }
+
     .main__community {
         margin-left: 25px;
         margin-right: 25px;
@@ -349,5 +357,6 @@ body {
     .main__cta {
         font-size: 16px;
     }
+
 
 }
