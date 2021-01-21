@@ -30,6 +30,7 @@ body {
     border: 0;
     border-radius: 30px;
     box-shadow: 0 2px 5px 1px hsla(0, 0%, 0%, 0.2);
+    cursor: pointer;
 }
 
 .header__hero {
@@ -61,6 +62,7 @@ body {
     background-color: hsl(322, 100%, 66%);
     border: 0;
     border-radius: 30px;
+    cursor: pointer;
 }
 
 .header__right {
@@ -70,4 +72,88 @@ body {
 .header__mockup {
     width: 100%;
     height: auto;
+}
+
+/* Main */
+
+.main {
+
+}
+
+.main__cards {
+    margin: 100px auto;
+    max-width: 1100px;
+    display: flex;
+    flex-direction: column;
+}
+
+.main__card {
+    margin-bottom: 25px;
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 0 7px hsla(0, 0%, 0%, 0.1);
+    border-radius: 10px;
+}
+
+.main__card--inverse {
+    flex-direction: row-reverse;
+}
+
+.main__info {
+    margin-left: 50px;
+    flex-basis: 450px;
+}
+
+.main__info--inverse {
+    margin-left: 0;
+}
+
+.main__sub-title {
+    margin: 15px 0;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.main__desc {
+    line-height: 1.5;
+    color: hsl(208, 11%, 55%);
+}
+
+.main__illustration {
+    width: 250px;
+    height: auto;
+}
+
+.main__illustration--inverse {
+    margin-left: 50px;
+}
+
+.main__community {
+    max-width: 500px;
+    padding: 20px;
+    margin: auto auto;
+    text-align: center;
+    background-color: white;
+    box-shadow: 0 0 7px hsla(0, 0%, 0%, 0.1);
+    border-radius: 10px;
+}
+
+.main__ready {
+    margin: 20px 0;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.main__cta {
+    margin-bottom: 10px;
+    padding: 15px 50px;
+    color: white;
+    font-weight: bold;
+    background-color: hsl(322, 100%, 66%);
+    box-shadow: 0 3px 10px hsla(0, 0%, 0%, 0.2);
+    border: 0;
+    border-radius: 30px;
+    cursor: pointer;
 }
